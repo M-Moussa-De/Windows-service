@@ -15,6 +15,10 @@ To run on a daily base and send a BD msg to the ppl stored in the DB and have BD
 
    . To remove the service `node service_uninstall.js`
 
+## The used technologies:
+
+`Node JS` `ExpressJS` `node-windows` `nodemailer`
+
 ## Note:
 
 You will need to create an account at `https://mailtrap.io/`

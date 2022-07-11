@@ -5,6 +5,7 @@ import { createTransport } from "nodemailer";
 
 const log = (msg) => console.log(msg);
 
+// In case you want to create your DB from null, use the following commented out code
 // const data = {
 //   info: [],
 // };
@@ -97,10 +98,3 @@ readFile("empInfo.json", "utf8", (err, data) => {
     });
   });
 });
-
-// Loop everyday
-// (function () {
-//   setInterval(() => {
-//     log("It is running");
-//   }, 86400000);
-// })();
